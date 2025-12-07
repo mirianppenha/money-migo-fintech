@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/Logov1.png">
+    <title>Money Migo - Controle suas Finanças</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+</head>
+<body>
+    
+    <header>
+     <nav class="navbar-expand-lg navbar bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" src="./assets/Logo 1.png" alt="Money Migo Fintech"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/Logo mobile.png" alt="Money"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Missão</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Entrar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cadastrar</a>
+          </li>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+    </header>
+
+    <main id="inicio" class="container my-5">
+        <section class="hero d-flex flex-column justify-content-center text-center">
+          <div class=" py-5">
+            <h2 class="fw-bold">Tenha o controle das suas finanças na palma da sua mão!</h2>
+            <p class="lead">Gerencie seus ganhos, gastos e investimentos de forma simples e segura.</p>
+          </div>  
+        </section>
+
+        <section id="missao" class="informacao-ganhos-gastos mb-5">
+            <h3>Entenda seus Ganhos e Gastos</h3>
+            <p>Saiba mais sobre como categorizar e analisar suas finanças.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>O que são ganhos?</h4>
+                    <p><strong>Ganhos</strong> representam todo valor que entra no seu orçamento — como salário, renda extra, benefícios, investimentos e qualquer outro tipo de entrada financeira. Identificar corretamente seus ganhos permite que você saiba exatamente quanto dinheiro realmente tem disponível para planejamento.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>O que são gastos?</h4>
+                    <p><strong>Gastos</strong> são todas as saídas de dinheiro, como contas fixas, compras do dia a dia, assinaturas, transporte, lazer, dívidas e muito mais. Ao diferenciar os tipos de gastos, você consegue identificar onde está gastando mais e onde é possível economizar.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="categorias-transacoes mb-5">
+            <h3>Controle suas Transações por Categoria</h3>
+            <p>Categorizar suas transações é essencial para ter uma visão clara do seu comportamento financeiro. Quando você classifica cada gasto e ganho, o sistema pode gerar gráficos e relatórios muito mais precisos, ajudando a visualizar padrões, prever despesas e tomar melhores decisões financeiras.</p>
+            <p>Organize seus rendimentos, despesas e investimentos de forma eficiente. Ao separar suas movimentações em categorias como <em>rendimentos</em>, <em>despesas fixas</em>, <em>despesas variáveis</em> e <em>investimentos</em>, você transforma dados brutos em insights valiosos. Isso facilita entender, por exemplo, quanto do seu dinheiro vai para lazer, quanto volta em investimentos e qual parte é comprometida com contas essenciais.</p>
+            <nav>
+                <ul class="list-unstyled d-flex flex-wrap gap-3">
+                    <li><a href="#rendimentos" class="btn btn-outline-primary">Rendimentos</a></li>
+                    <li><a href="#despesas" class="btn btn-outline-primary">Despesas Fixas e Variáveis</a></li>
+                    <li><a href="#investimentos" class="btn btn-outline-primary">Investimentos</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="conectar-banco" class="integracao-banco mb-5">
+            <h3 class="text-center">Integre seu Banco</h3>
+            <p class="text-center">Conecte-se aos principais bancos e tenha uma visão completa das suas transações.</p>
+            <div class="parceiros d-flex justify-content-center flex-wrap gap-3">
+                <img src="./assets/Nubank.png" alt="Logo do Nubank">
+                <img src="./assets/Itau.png" alt="Logo do Itaú">
+                <img src="./assets/Banco_Bradesco.png" alt="Logo do Bradesco">
+                <img src="./assets/Xp_Investimentos.png" alt="Logo da XP">
+                <img src="./assets/HSBC.png" alt="Logo do HSBC">
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 Money Migo Fintech. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (opcional, para interatividade) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
