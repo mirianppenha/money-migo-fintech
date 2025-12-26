@@ -1,3 +1,5 @@
+/* @import "/node_modules/bootstrap/scss/bootstrap" */
+
 /* Variáveis */
 :root {
  
@@ -22,6 +24,13 @@ body {
   color: var(--cor-texto);
   background: linear-gradient(to bottom, #6a0dad, #f9d423);
  
+}
+
+/* Code from Osward */
+.main-container{
+
+  padding: 60px;
+  border: solid 20px black;
 }
 
 /* Logo */
@@ -59,4 +68,17 @@ body {
 footer p {
   margin: 0;
   color: var(--cor-texto);
+}
+
+
+/* Code From Osward */
+/* COlor picker  */
+
+
+.btn{
+  color: black;
+  background-color: #f0f0f1;
+}
+.col-auto{
+  /* background-color: #007bff; */
 }
